@@ -1,0 +1,138 @@
+/* Estilos globales */
+body {
+  font-family: 'Netflix Sans', Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de Navbar */
+.navbar {
+  background-color: #141414;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Estilos de Contenido Principal */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos comunes para títulos */
+h1, h2, h3 {
+  color: #141414;
+}
+
+/* Estilos específicos para cada página */
+.home-page {
+  /* Estilos para la página de inicio */
+}
+
+.cv-page {
+  /* Estilos para la página de CV */
+}
+
+.projects-page {
+  /* Estilos para la página de proyectos */
+}
+
+.project-form-page {
+  /* Estilos para la página de formulario de proyectos */
+}
+
+/* Estilos para el formulario de proyectos */
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  color: #141414;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="url"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-container button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #ff0f0f;
+}
+
+.borrar {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.borrar:hover, .editar:hover{
+  background-color: #ff0f0f;
+}
+
+.editar {
+  background-color: #e50914;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+}
