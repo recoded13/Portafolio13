@@ -156,7 +156,7 @@ const ProjectForm = ({ onSubmit }) => {
           />
           <label>API</label>
         </div>
-        {/* Agrega más herramientas según sea necesario */}
+        {/* Agrega más herramientas */}
       </div>
       <button type="submit">Agregar Proyecto</button>
     </form>

@@ -1,7 +1,7 @@
 import '../Styles.css'
 
 const Cv = () => {
-  const pdfUrl = '../public/CV-Adán-Sánchez.pdf'; // Asegúrate de que esta ruta sea correcta
+  const pdfUrl = '../public/CV-Adán-Sánchez.pdf'; 
 
 
   return (

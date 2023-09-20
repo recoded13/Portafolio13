@@ -42,7 +42,7 @@ Este proyecto ha involucrado varias etapas, desde la configuración inicial hast
    - Desarrollamos componentes de React reutilizables, como Navbar y ProjectForm.
 
 3. **Desarrollo del backend:**
-   - Configuramos una base de datos MySQL para almacenar proyectos.
+   - Configuramos una base de datos postgreSQL para almacenar proyectos.
    - Desarrollamos una API RESTful utilizando Java Spring Boot para gestionar proyectos.
    - Implementamos CORS (Cross-Origin Resource Sharing) para permitir solicitudes desde el frontend.
 
@@ -109,6 +109,4 @@ Este proyecto está en constante desarrollo y se están realizando actualizacion
 - **Autenticación de usuarios:** Agregar autenticación de usuarios para permitir que los creadores de proyectos accedan y administren sus proyectos.
 
 - **Más características:** Explorar la posibilidad de agregar más características, como la categorización de proyectos o la búsqueda.
-
-- **Subir todo el proyecto en github**
 
